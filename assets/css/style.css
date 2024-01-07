@@ -1,0 +1,176 @@
+/* Imported font from .woff file */
+@font-face {
+    font-family: 'Myriad Pro';
+    src: url('../font/MyriadPro-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Myriad Pro';
+    src: url('../font/MYRIADPRO-REGULAR.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Myriad Pro';
+    src: url('../font/MYRIADPRO-SEMIBOLD.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Myriad Pro';
+    src: url('../font/MYRIADPRO-BOLD.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* Custom styles */
+body{
+    font-family: 'Myriad Pro';
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.login-cta{
+    border-radius: 2rem;
+}
+
+.fw-semibold{
+    font-weight: 600;
+}
+
+.hero{
+    background-image: url(../img/hero-bg.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.hero img{
+    width: 50%;
+}
+
+.navbar-dark{
+    background-color: #0000008e !important;
+}
+.server-info{
+    background-color: #000;
+}
+
+.info-head{
+    font-size: 1.5rem;
+    background-color: #FF6C00;
+    white-space: nowrap;
+    font-weight: 600;
+}
+
+.info-text{
+    font-size: 1.2rem;
+}
+.title{
+    font-size: 2.4rem;
+    text-transform: uppercase;
+}
+.orange{
+    color: #FF6C00;
+    font-weight: 600;
+}
+.rebirth-content p{
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+.line{
+    width: 100px;
+    height: 4px;
+    background-color: #FF6C00;
+}
+
+.bg-grey{
+    background-color: #E5E5E5;
+    background-image: url(../img/news-img.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom left;
+}
+
+.news p{
+    font-size: 0.9rem;
+}
+.bg-pattern{
+    background-image: url(../img/bg-black.png), linear-gradient(#000, #000);
+    background-size: cover;
+    background-position: center;
+}
+.fame{
+    border: 2px solid #fff;
+}
+.fame-head{
+    border-bottom: 4px solid #fff;
+}
+
+.fame-content img{
+    width: 40%;
+}
+
+.highlights{
+    background-image: url(../img/highlights-img.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom right;
+}
+
+.featured{
+    background-image: url(../img/featured-bg.png);
+    background-size: cover;
+    background-position: center;
+}
+.item p{
+    font-size: 1.2rem;
+}
+
+.owl-carousel .owl-dots{
+    display: flex !important;
+    margin: 0 auto;
+    gap: 5px;
+    justify-content: center;
+}
+
+.owl-dot{
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background-color: #fff !important;
+    border: 1px solid transparent !important;
+    box-shadow: 3px 3px 10px #323232;
+    border-radius: 100%;
+}
+.owl-dot.active{
+    background-color: #323232 !important;
+    border: 1px solid #fff !important;
+}
+
+.owl-nav{
+    display: none;
+}
+.player-img{
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
+.p1{
+    background-image: url(../img/Layer\ 10.png);
+    background-position: 35%;
+}
+
+.p2{
+    background-image: url(../img/Layer\ 11.png);
+    background-position: 30%;
+}
+
+.p3{
+    background-image: url(../img/Layer\ 12.png);
+    background-position: center;
+}
